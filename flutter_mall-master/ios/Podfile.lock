@@ -22,8 +22,6 @@ PODS:
     - Flutter
   - wakelock (0.0.1):
     - Flutter
-  - webview_flutter_wkwebview (0.0.1):
-    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -34,7 +32,6 @@ DEPENDENCIES:
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
-  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
 
 SPEC REPOS:
   trunk:
@@ -58,8 +55,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/video_player_avfoundation/ios"
   wakelock:
     :path: ".symlinks/plugins/wakelock/ios"
-  webview_flutter_wkwebview:
-    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
@@ -71,8 +66,7 @@ SPEC CHECKSUMS:
   sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
-  wakelock: b0843b2479edbf6504d8d262c2959446f35373aa
-  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
 
 PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
 

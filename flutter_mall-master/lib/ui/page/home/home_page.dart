@@ -64,7 +64,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       body: IndexedStack(
         index: _selectedIndex,
@@ -73,21 +72,11 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: '主页'),
+          BottomNavigationBarItem(icon: Icon(Icons.category), label: '分类'),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.category),
-
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart),
-
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-
-          ),
+              icon: Icon(Icons.shopping_cart), label: '购物车'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: '个人主页'),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: AppColors.COLOR_FF5722,

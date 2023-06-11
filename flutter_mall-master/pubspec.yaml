@@ -41,12 +41,18 @@ dependencies:
   flutter_widget_from_html_core: any
   tuple: any
   flutter_html: any
-  city_pickers: any
+  city_pickers:
+    git:
+      url: https://github.com/lotawei/city_pickers.git
+      ref: 1.2.1_lotw
   flutter_slidable: any
   flutter_webview_plugin: any
   common_utils: any
   event_bus: any
   device_preview: any
+dependency_overrides:
+  chewie: 1.5.0
+  flutter_math_fork: 0.7.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
